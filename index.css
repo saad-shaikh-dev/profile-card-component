@@ -68,6 +68,9 @@ strong {
 .stats div {
     margin: 10px;
 }
+.attribution {
+    color: white;
+}
 .attribution a {
     text-decoration: none;
     color: white;
