@@ -15,14 +15,9 @@ transform: translate(-50%, -50%);
 color: var(--dark-gray);
 font-family: 'Kumbh Sans', sans-serif;
 margin-left: 0px;
-background-color: var(--dark-cyan);
-z-index: 0;
-}
-
-.background {
-    z-index: 1;
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
-    background-repeat: space;
+background: url("/bg-pattern-top.svg"), url("/bg-pattern-bottom.svg"), var(--dark-cyan);
+background-repeat: no-repeat;
+background-position: right calc(48vw + 15%) bottom calc(-68vh - 0vw), left calc(40vw + 25%) top calc(72vh - 10vw);
 }
 
 .card {
